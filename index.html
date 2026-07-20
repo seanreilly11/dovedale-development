@@ -3,11 +3,328 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dovedale Development</title>
+    <title>Dovedale Development - Small software studio</title>
+    <meta
+      name="description"
+      content="Dovedale Development is a small software studio building focused, well-crafted mobile and web applications. Registered in the Netherlands (KvK 42110285)."
+    />
+    <link rel="canonical" href="https://dovedaledevelopment.vercel.app/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Dovedale Development" />
+    <meta
+      property="og:title"
+      content="Dovedale Development - Small software studio"
+    />
+    <meta
+      property="og:description"
+      content="A small software studio building focused, well-crafted mobile and web applications. Registered in the Netherlands (KvK 42110285)."
+    />
+    <meta property="og:url" content="https://dovedaledevelopment.vercel.app/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Dovedale Development - Small software studio"
+    />
+    <meta
+      name="twitter:description"
+      content="A small software studio building focused, well-crafted mobile and web applications."
+    />
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23425a8b'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='15' font-weight='700' fill='white' text-anchor='middle'%3EDD%3C/text%3E%3C/svg%3E"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Welcome to Dovedale Development!</h1>
-    <p>We specialize in creating innovative solutions for your business.</p>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a
+          class="brand"
+          href="index.html"
+          aria-label="Dovedale Development home"
+        >
+          <span class="mark" aria-hidden="true">DD</span>
+          Dovedale Development
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <a href="#products">Products</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <a class="btn" href="mailto:seanreilly123@hotmail.com"
+            >Get in touch</a
+          >
+        </nav>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            aria-hidden="true"
+          >
+            <path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round" />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="wrap hero-inner">
+          <p class="eyebrow">Software studio · Amsterdam</p>
+          <h1>Small software studio.<br />Carefully built apps.</h1>
+          <p class="lede">
+            Dovedale Development designs and builds focused mobile and web
+            applications for specific audiences - the kind of software that does
+            one thing genuinely well.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="#products">See our products</a>
+            <a class="btn ghost" href="#contact">Contact us</a>
+          </div>
+          <div class="hero-meta" aria-label="Company registration">
+            <span>Registered in the Netherlands</span>
+            <span>KvK 42110285</span>
+            <span>Est. business</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- What we do -->
+      <section class="about" id="about">
+        <div class="wrap about-grid">
+          <div>
+            <p class="eyebrow">What we do</p>
+            <p class="about-lead">
+              We build a small number of applications and look after each one
+              properly.
+            </p>
+          </div>
+          <div class="about-cols">
+            <div>
+              <h3>Focused by design</h3>
+              <p>
+                Rather than chase many half-finished ideas, Dovedale Development
+                ships a handful of well-scoped apps and refines them over time.
+                Every product is built for a clearly defined audience with a
+                real problem to solve.
+              </p>
+            </div>
+            <div>
+              <h3>Crafted to last</h3>
+              <p>
+                We care about the details most people never notice -
+                performance, clarity, accessibility, and honest, sustainable
+                pricing. Our apps are maintained as long-term products, not
+                one-off launches.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Products -->
+      <section class="products" id="products">
+        <div class="wrap">
+          <div class="section-head">
+            <p class="eyebrow">Our products</p>
+            <h2>Apps built by Dovedale Development</h2>
+            <p>
+              Each application is developed, published, and supported by
+              Dovedale Development. More products will join this list over time.
+            </p>
+          </div>
+
+          <div class="card-grid">
+            <!-- CycleDutch -->
+            <article class="product-card">
+              <div class="card-top">
+                <span
+                  class="product-logo"
+                  style="background: oklch(0.64 0.16 55)"
+                  aria-hidden="true"
+                  >C</span
+                >
+                <span class="pill">Live · Course</span>
+              </div>
+              <h3>CycleDutch</h3>
+              <p>
+                Learn to cycle the Dutch way. A course teaching expats the rules
+                of the road in the Netherlands.
+              </p>
+              <a
+                class="card-link"
+                href="https://cycledutch.com"
+                target="_blank"
+                rel="noopener"
+              >
+                Visit cycledutch.com
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M7 17L17 7M17 7H8M17 7v9"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </article>
+
+            <!-- Placeholder for future product - duplicate the card above to add more.
+                 Kept commented so the grid shows only live products.
+            <article class="product-card">
+              <div class="card-top">
+                <span class="product-logo" style="background: oklch(0.5 0.09 160)" aria-hidden="true">N</span>
+                <span class="pill">Coming soon</span>
+              </div>
+              <h3>Next app</h3>
+              <p>One-line description of the next product.</p>
+              <a class="card-link" href="#">Learn more
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M17 7H8M17 7v9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </article>
+            -->
+          </div>
+
+          <p class="card-note">
+            More apps are in development and will be listed here as they launch.
+          </p>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="contact" id="contact">
+        <div class="wrap contact-grid">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2 class="section-head" style="margin-bottom: 1rem">
+              Get in touch
+            </h2>
+            <p style="color: var(--ink-soft); max-width: 40ch">
+              Questions about our products, support, or business enquiries -
+              email us directly and we'll reply personally.
+            </p>
+          </div>
+
+          <dl class="contact-details">
+            <div class="detail-row">
+              <dt>Company</dt>
+              <dd>Dovedale Development</dd>
+            </div>
+            <div class="detail-row">
+              <dt>Email</dt>
+              <dd>
+                <a href="mailto:seanreilly123@hotmail.com"
+                  >seanreilly123@hotmail.com</a
+                >
+              </dd>
+            </div>
+            <div class="detail-row">
+              <dt>KvK number</dt>
+              <dd>42110285</dd>
+            </div>
+            <div class="detail-row">
+              <dt>Registered address</dt>
+              <dd>
+                Amsterdam, Netherlands
+                <span class="review"
+                  >[REVIEW: add full street, postcode &amp; city]</span
+                >
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a
+              class="brand"
+              href="index.html"
+              aria-label="Dovedale Development home"
+            >
+              <span class="mark" aria-hidden="true">DD</span>
+              Dovedale Development
+            </a>
+            <p>
+              A small software studio building focused, well-crafted
+              applications. Registered in the Netherlands.
+            </p>
+          </div>
+
+          <div class="footer-cols">
+            <div class="footer-col">
+              <h4>Company</h4>
+              <ul>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#products">Products</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Legal</h4>
+              <ul>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Service</a></li>
+                <li><a href="refunds.html">Refund Policy</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Details</h4>
+              <ul>
+                <li>
+                  <a href="mailto:seanreilly123@hotmail.com"
+                    >seanreilly123@hotmail.com</a
+                  >
+                </li>
+                <li>KvK 42110285</li>
+                <li><address>Amsterdam, Netherlands</address></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span
+            >© <span data-year>2026</span> Dovedale Development. All rights
+            reserved.</span
+          >
+          <span class="legal-mini">
+            <a href="privacy.html">Privacy</a>
+            <a href="terms.html">Terms</a>
+            <a href="refunds.html">Refunds</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
