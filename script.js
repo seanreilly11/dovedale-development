@@ -3,6 +3,72 @@
 (function () {
   "use strict";
 
+  // populate our products list with data from array of objects
+  const products = [
+    {
+      name: "CycleDutch",
+      description:
+        "Learn to cycle the Dutch way. A course teaching expats the rules of the road in the Netherlands.",
+      link: "https://cycledutch.com",
+      logo: "assets\\cycledutch.png",
+      type: "Course",
+    },
+    {
+      name: "Millionle",
+      description:
+        "A simple, daily game where you guess a number between 1 and 1,000,000.",
+      link: "https://millionle.com",
+      logo: "assets\\millionle.svg",
+      type: "Game",
+    },
+  ];
+
+  const productsList = document.querySelector(".products-list");
+  if (productsList) {
+    products.forEach((product) => {
+      const productItem = document.createElement("article");
+      productItem.className = "product-card";
+      productItem.innerHTML = `
+        <div class="card-top">
+          <img
+            class="card-logo"
+            src="${product.logo}"
+            alt="${product.name} logo"
+            width="48"
+            height="48"
+          />
+          <span class="pill">Live · ${product.type}</span>
+        </div>
+        <h3>${product.name}</h3>
+        <p>
+          ${product.description}
+        </p>
+        <a
+          class="card-link"
+          href="${product.link}"
+          target="_blank"
+          rel="noopener"
+        >
+          Visit ${product.name}
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            aria-hidden="true"
+          >
+            <path
+              d="M7 17L17 7M17 7H8M17 7v9"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+      `;
+      productsList.appendChild(productItem);
+    });
+  }
+
   // Sticky-header border on scroll
   var header = document.querySelector(".site-header");
   if (header) {
