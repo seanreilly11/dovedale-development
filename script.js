@@ -9,7 +9,7 @@
       name: "CycleDutch",
       description:
         "Learn to cycle the Dutch way. A course teaching expats the rules of the road in the Netherlands.",
-      link: "https://cycledutch.com",
+      link: "https://cycledutch.vercel.app",
       logo: "assets/cycledutch.png",
       type: "Course",
     },
