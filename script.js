@@ -10,7 +10,7 @@
       description:
         "Learn to cycle the Dutch way. A course teaching expats the rules of the road in the Netherlands.",
       link: "https://cycledutch.com",
-      logo: "assets\\cycledutch.png",
+      logo: "assets/cycledutch.png",
       type: "Course",
     },
     {
@@ -18,7 +18,7 @@
       description:
         "A simple, daily game where you guess a number between 1 and 1,000,000.",
       link: "https://millionle.com",
-      logo: "assets\\millionle.svg",
+      logo: "assets/millionle.svg",
       type: "Game",
     },
   ];
